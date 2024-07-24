@@ -76,7 +76,7 @@ void setup() {
   lcd.createChar(0, customChardwn);                                         //crea il carattere custom 0 fraccia basso
   lcd.createChar(1, customCharup);                                          //crea il carattere custom 1 freccia alto  lcd.begin(16, 2);                                                         //inizializza LCD
   lcd.setCursor(0, 0);
-  lcd.print("DRY FILM TIME");
+  lcd.print("DRYING FILM TIME");
   lcd.setCursor(0, 1);
   lcd.print("RECORDER 17/7/24");
   delay(2000);
